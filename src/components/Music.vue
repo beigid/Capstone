@@ -5,7 +5,7 @@
     
 <form v-on:submit.prevent="findmusic">
       <input type="text" id="myInput" v-model="artist" placeholder="Search Favorite Artist.." title="Type in a name">
- <p><input type="submit" value="Submit"></p>
+<input type="submit" value="Submit"></p>
 </form>
 
 

@@ -30,8 +30,8 @@ export default {
 
 
 #results li  {
-    padding-bottom: 25px;
-    padding-top:25px;
+    padding-bottom: 30px;
+    padding-top:35px;
 }
 
 
