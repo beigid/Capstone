@@ -27,12 +27,7 @@ export default {
     margin-top: 60px;
   }
 
-  body {
-      background-image: url('../src/assets/itunes.png');
-      background-attachment:fixed;
-      background-repeat:no-repeat;
-      background-size: cover;
-  } 
+
 
 #results li  {
     padding-bottom: 25px;
