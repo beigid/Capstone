@@ -2,7 +2,7 @@
 
 <div>
   <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
          <router-link to="/about">About</router-link>
     <br><router-link to="/contact">Contact</router-link>
         </div>
@@ -12,12 +12,12 @@
 </template>
 
  <script>
-        function openNav() {
+         document.getElementById("openNav").addEventListener('click', function() {
             document.getElementById("mySidenav").style.width = "250px";
-        }
+        });
         
-        function closeNav() {
+        document.getElementById("closenNav").addEventListener('click', function() {
             document.getElementById("mySidenav").style.width = "0";
-        }
+        });
    
         </script>
