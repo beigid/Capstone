@@ -64,7 +64,7 @@ export default {
 h1,
 h2 {
   font-weight: normal;
-  font-size:4em;
+  font-size:3em;
   color:white;
   font-family: 'PT Sans', sans-serif;
 
