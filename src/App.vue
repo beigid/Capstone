@@ -3,7 +3,7 @@
     
      <div>
         <div  class="sidenav" :class="{shownav:isOpen}">
-          <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+          <a href="javascript:void(0)" class="closebtn" id="closeNav" v-on:click='isOpen = !isOpen'>&times;</a>
          <router-link to="/about">About</router-link>
             <br><router-link to="/contact">Contact</router-link>
         </div>
@@ -48,6 +48,12 @@ export default {
 #results li {
   padding-bottom: 30px;
   padding-top: 35px;
+}
+
+#openNav {
+    position: absolute;
+    top: 10px;
+    left: 15px;
 }
 
 .sidenav {
