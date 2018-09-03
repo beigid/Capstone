@@ -6,6 +6,7 @@
           <a href="javascript:void(0)" class="closebtn" id="closeNav" v-on:click='isOpen = !isOpen'>&times;</a>
          <router-link to="/about">About</router-link>
             <br><router-link to="/contact">Contact</router-link>
+            <br><router-link to="/">Track Music</router-link>
         </div>
         
         <span style="font-size:35px;cursor:pointer; padding-left:10px; color:white;" id="openNav" v-on:click='isOpen = !isOpen'>&#9776;</span>
